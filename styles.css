@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("bg.png");
+}
+
+.image-container {
+  position: absolute; right: 65%;
+  cursor: pointer;
+  
+}
+
+.chat-bubble {
+  position: absolute;
+
+	background-color: #fff;
+  padding: 25px;
+	font-size: 1.25em;
+	border-radius: 50px;
+  box-shadow:	0 0.125rem 0.5rem rgba(0, 0, 0, .3), 0 0.0625rem 0.125rem rgba(0, 0, 0, .2);
+
+
+
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  transform: scale(0.8);
+  right: -170%; /* Adjust this value to control the distance from the image */
+  top: 25%;
+  transform-origin: left center;
+  white-space: nowrap; /* Prevent the text from wrapping */
+  
+}
+
+

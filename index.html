@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Roz</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="icon" href="./icon.png" type="image/x-icon">
+</head>
+<body>
+  <div class="image-container" onmouseover="showBubble()">
+    <img src="kobayashi.png" alt="roz">
+    <div class="chat-bubble" id="chatBubble">hi, i am roz, i dont know why are you here, but, if you wish to contact me dm me on discord, 
+      my discord is <a href="https://discordapp.com/users/492396613591891968">this</a></div>
+  </div>
+  <script>
+    function showBubble() {
+      document.getElementById('chatBubble').style.opacity = 1;
+      document.getElementById('chatBubble').style.visibility = 'visible';
+    }
+
+    function hideBubble() {
+      document.getElementById('chatBubble').style.opacity = 0;
+      document.getElementById('chatBubble').style.visibility = 'hidden';
+    }
+  </script>
+</body>
+</html>
