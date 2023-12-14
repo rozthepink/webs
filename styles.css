@@ -32,7 +32,7 @@ body {
   right: -1%; /* Adjust this value to control the distance from the image */
   top: 25%;
   transform-origin: left center;
-  white-space: nowrap; /* Prevent the text from wrapping */
+  word-wrap: break-word;
   
 }
 
