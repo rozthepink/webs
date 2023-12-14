@@ -29,7 +29,7 @@ body {
   visibility: hidden;
   transition: opacity 0.3s ease, transform 0.3s ease;
   transform: scale(0.8);
-  right: -170%; /* Adjust this value to control the distance from the image */
+  right: -1%; /* Adjust this value to control the distance from the image */
   top: 25%;
   transform-origin: left center;
   white-space: nowrap; /* Prevent the text from wrapping */
